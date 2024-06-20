@@ -28,12 +28,10 @@ export const Home = () => {
          
           <div className="inner-div">
             <div className="img" data-aos="fade-up" >
-              <img  src="whylogo.png" alt="" />
+              <img  src="whylogo.jpg" alt="" />
             </div>
             <div className="main-why-div"  data-aos="fade-up" >
-             <p>Looking For Top-Notch Software Development Services? Look No Further Than CREATOR74 TECH
-SOLUTIONS in Al Karma, Dubai. Our Team of Skilled Developers is Dedicated to Delivering High-quality Solutions Tailored to your Specific needs. Trust CREATOR74 TECH
-SOLUTIONS to Bring Your Digital Projects to life with Expertise and Precision.</p>
+             <p>Looking for top-notch construction services? Look no further than Makaan Builders in Eriyal, Kasaragod, Kerala. Our team of skilled builders is dedicated to delivering high-quality solutions tailored to your specific needs. Trust Makaan Builders to bring your construction projects to life with expertise and precision.</p>
             </div>
           </div>
         </div>

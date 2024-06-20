@@ -14,12 +14,14 @@ padding-top: 15px;
     font-weight: 700;
     letter-spacing: 1px;
     background-color: #f9fafb;
+    margin: 20px;
     button{
 align-items: center;
-background-color: #f1eeee;
-border: 1px solid rgba(0, 0, 0, 0.8);
+background-color: #ffffff;
+
+border: none;
 border-radius: .25rem;
-box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-shadow: rgba(121, 173, 123, 0.16) 0px 1px 4px, rgb(217, 248, 212) 0px 0px 0px 3px;
 box-sizing: border-box;
 color: rgba(0, 0, 0, 0.85);
 cursor: pointer;
@@ -40,6 +42,7 @@ user-select: none;
 touch-action: manipulation;
 vertical-align: baseline;
 width: auto;
+margin-top: 10px;
 }
 
 button:hover,
@@ -69,6 +72,7 @@ transform: translateY(0);
     max-width: 1400px;
     display: grid;
     margin: auto;
+    
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: space-between;/* Default for mobile (1 column) */
     gap: 20px; /* Adjust gap between grid items if needed */
@@ -76,6 +80,7 @@ transform: translateY(0);
         width: 100%;
        padding: 5px;
         border-radius: 7px;
+     
         h4{
             padding: 0px 10px;
             padding-bottom: 5px;
@@ -85,7 +90,7 @@ transform: translateY(0);
             font-weight: 500;
             letter-spacing: 1px;
          }
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(217, 248, 212) 0px 6px 6px;
         .inner-card{
            padding: 10px;
             display: flex;
@@ -172,7 +177,7 @@ transform: translateY(0);
         background-color: #f9fafb;
         border-radius: 6px;
         padding: 10px 12px;
-        box-shadow: rgba(98, 109, 230, 0.2) 2px 2px 2px 2px,  rgba(0, 64, 255, 0.2) 0px 0px 0px 2px;
+        box-shadow: rgba(121, 173, 123, 0.16) 0px 1px 4px, rgb(217, 248, 212) 0px 0px 0px 3px;
         p{
             line-height: 27px;
             font-size: 15px;
@@ -194,7 +199,7 @@ transform: translateY(0);
             object-fit: contain;
             margin: auto;
             border-radius: 6px;
-            box-shadow: rgba(98, 109, 230, 0.2) 2px 2px 2px 2px,  rgba(0, 64, 255, 0.2) 0px 0px 0px 2px;
+            box-shadow: rgba(121, 173, 123, 0.16) 0px 1px 4px, rgb(217, 248, 212) 0px 0px 0px 3px;
         }
     }
 }

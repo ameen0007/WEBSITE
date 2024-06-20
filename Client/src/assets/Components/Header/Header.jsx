@@ -11,8 +11,8 @@ export const Header = () => {
   return (
     <div  className='header-div' data-aos="fade-down">
         <div><img src="logo.png" alt="" /></div>
-        <h1>CREATOR74 TECH <br />SOLUTIONS CO.L.L.C</h1>
-        <p>CREATOR74 TECH SOLUTIONS CO.L.L.C</p>
+        {/* <h1>CREATOR74 TECH <br />SOLUTIONS CO.L.L.C</h1> */}
+        <p>MAKAAN BUILDERS</p>
     </div>
   )
 }

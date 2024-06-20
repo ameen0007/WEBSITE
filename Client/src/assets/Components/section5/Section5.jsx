@@ -8,16 +8,18 @@ export const Section5 = () => {
     Aos.init({duration : '2000'})
    },[])
    
-  const handleCallButtonClick = () => {
-    window.location.href = "https://wa.me/+971568379358?text=Hello! I'm interested in your services. Can we chat?";
-  };
+   const handleCallButtonClick = () => {
+    window.location.href = "tel:+918089999949";
+};
 
-  const handleEmailButtonClick = () => {
-    window.location.href = "mailto:gamingstress9555@gmail.com"; // Replace example@example.com with your email address
-  };
-  const handleWhatsAppButtonClick = () => {
-    window.location.href = "https://wa.me/+971568379358?text=Hello! I'm interested in your services. Can we chat?";
-  };
+const handleEmailButtonClick = () => {
+  window.location.href = "mailto:makaanbuilders55@gmail.com";
+};
+
+const handleWhatsAppButtonClick = () => {
+  window.location.href = "https://wa.me/+918848769911?text=Hello! I'm interested in your services. Can we chat?";
+};
+
   return (
     <>
       <div className="sec5h1">

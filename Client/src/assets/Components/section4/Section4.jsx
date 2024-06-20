@@ -75,7 +75,7 @@ export const Section4 = () => {
       <div className="inside-about">
         <div className="p" data-aos="fade-up">
           <p>
-          In the captivating area of Al Karma, Dubai, our dedicated team operates from the heart of the community, identified by the distinguished PIN 122002. Within this picturesque locale, we channel our passion for innovation and expertise to craft exceptional digital solutions. From software development to app creation, we specialize in bringing ideas to life, pushing the boundaries of technology to deliver cutting-edge products. Thank you for choosing us to embark on this journey of innovation in Dubai. We're thrilled to collaborate with you and build remarkable solutions together.
+          In the tranquil setting of Eriyal, Kasaragod, Kerala - 671124, our dedicated team operates at the heart of the community. Within this picturesque locale, known for its distinct PIN 671124, we channel our passion for construction and expertise to deliver exceptional building solutions. From meticulous planning to flawless execution, we specialize in crafting high-quality structures that stand the test of time. Thank you for choosing us to embark on this construction journey in Kasaragod. We look forward to collaborating with you and creating remarkable buildings together.
           </p>
         </div>
         <div className="img" data-aos="fade-up">
