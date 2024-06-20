@@ -4,9 +4,14 @@ const cors = require('cors');
 const serviceRouter=require('./routes/serviceRoute');
 connectDB();
 const app = express();
-app.use(cors({
-  credentials:true
-}));
+app.use(cors(
+  {
+    origin : ["https://makaan-builders--eight.vercel.app/"],
+    methods : ["GET","POST"],
+    credentials : true
+  }
+
+));
 app.use(express.json())
 app.use('/services', serviceRouter);
 

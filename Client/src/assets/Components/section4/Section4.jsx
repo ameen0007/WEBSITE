@@ -21,7 +21,7 @@ export const Section4 = () => {
    const avatarGenerator = new AvatarGenerator();
 
    const handlegetitems= async()=>{
-    const response = await axios.get('http://localhost:3000/services/getServices')
+    const response = await axios.get('https://makaan-builders--eight.vercel.app/services/getServices')
     console.log(response.data,"res");
     setdata(response.data)
   }
