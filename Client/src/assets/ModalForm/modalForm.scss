@@ -1,0 +1,84 @@
+// modalForm.scss
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 27px;
+    font-size: 13px;
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(8, 14, 55);
+    font-weight: 600;
+    letter-spacing: 1px;
+  
+    &.show {
+      display: block;
+    }
+  
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 500px;
+      position: relative;
+      border-radius: 10px;
+  
+      .close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: #aaa;
+        font-size: 28px;
+        font-weight: bold;
+  
+        &:hover,
+        &:focus {
+          color: black;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+  
+      h2 {
+        margin-bottom: 20px;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+  
+        label {
+          margin-bottom: 5px;
+        }
+  
+        input,
+        textarea {
+          margin-bottom: 15px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+  
+        button {
+          padding: 10px;
+          border: none;
+          background-color: #28a745;
+          color: white;
+          cursor: pointer;
+          border-radius: 5px;
+  
+          &:hover {
+            background-color: #218838;
+          }
+        }
+      }
+    }
+  }
+  

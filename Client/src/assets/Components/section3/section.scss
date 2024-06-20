@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.main-h1{
+ width: 100%;
+ background-color: #f9fafb;
+ padding-top: 20px;
+.h1{
+  
+  width: 79%;
+  margin: auto;
+background-color: #f9fafb;
+
+
+h1{
+    font-size: 27px;
+    text-align: center;
+    // font-family: "Francois One", sans-serif;
+    // font-family: "Lilita One", sans-serif;
+    // font-family: "Fascinate Inline", system-ui;
+    // font-family: "Fugaz One", sans-serif;
+    // font-family: "Patua One", serif;
+    font-family: "Raleway", sans-serif;
+    color: rgb(12, 17, 49);
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #f9fafb;
+ 
+   
+    padding: 0px 30px;
+
+}
+}
+}
+.service-main-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #f9fafb;
+  }
+  
+  .serviceinner-div {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(98, 109, 230, 0.2) 2px 2px 2px 2px,  rgba(0, 64, 255, 0.2) 0px 0px 0px 2px;
+    border-radius: 6px;
+
+    p{
+        font-size: 24px;
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(12, 17, 49);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+
+    }
+    small{
+        line-height: 27px;
+        font-size: 15px;
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(8, 14, 55);
+        font-weight: 600;
+        letter-spacing: 1px;
+        
+    }
+  }
+  
+  .serviceinner-div > div {
+    margin-bottom: 10px;
+  }
+  
+  .serviceinner-div img {
+    max-width: 100%;
+    box-shadow: rgba(98, 109, 230, 0.2) 2px 2px 2px 2px,  rgba(0, 64, 255, 0.2) 0px 0px 0px 2px;
+    border-radius: 4px;
+    
+
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .service-main-div {
+      padding: 30px 40px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .service-main-div {
+      margin: auto;
+      max-width: 1500px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .h1{
+      h1{
+        font-size: 46px;
+      }
+    }
+    .service-main-div {
+     padding: 60px;
+       .serviceinner-div{
+        padding: 30px;
+        p{
+          font-size: 30px
+        }
+        small{
+         font-size: 20px;
+         color: #474545;
+
+        }
+       }
+    }
+  }
