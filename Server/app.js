@@ -6,7 +6,7 @@ connectDB();
 const app = express();
 app.use(cors(
   {
-    origin : ["https://makaan-builders.vercel.app/"],
+    origin : ["https://makaan-builders.vercel.app"],
     methods : ["GET","POST"],
     credentials : true
   }
