@@ -6,6 +6,7 @@ const getServices = async (req, res) => {
     
     try {
       const services = await Service.find();
+      console.log(services,"services");
       res.json(services);
     } catch (error) {
       res.status(500).json({ message: error.message });
