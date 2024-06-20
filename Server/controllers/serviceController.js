@@ -5,7 +5,7 @@ const Service = require('../models/service');
 const getServices = async (req, res) => {
     
     try {
-      const services = await Service.find();
+      const services = await Service.find().sort({ _id: -1 }).limit(5)
       console.log(services,"services");
       res.json(services);
     } catch (error) {
