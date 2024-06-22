@@ -18,6 +18,7 @@ const ModalForm = ({ handlegetitems, show,userreview, handleClose ,username,setU
           handleClose(); // Close the modal after submission
           handlegetitems()
         } catch (error) {
+          handleClose()
           console.error('There was an error submitting the review:', error);
         }
     }
