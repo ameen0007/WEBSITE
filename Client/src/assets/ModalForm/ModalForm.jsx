@@ -7,9 +7,11 @@ import './modalForm.scss'; // Create a separate SCSS file for modal styles
 const ModalForm = ({ handlegetitems, show,userreview, handleClose ,username,setUsername,setUserreview }) => {
  
     const handlsubmit = async(e)=>{
+      console.log("inside submit");
         e.preventDefault(); // Prevent default form submission behavior
 
         try {
+          console.log("insideAdd");
           const response = await axios.post('https://makaan-builders.onrender.com/services/addServices', {
             name: username,
             review: userreview

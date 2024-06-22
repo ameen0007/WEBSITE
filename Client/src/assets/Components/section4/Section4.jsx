@@ -21,6 +21,7 @@ export const Section4 = () => {
    const avatarGenerator = new AvatarGenerator();
 
    const handlegetitems= async()=>{
+    console.log("insideget");
     const response = await axios.get('https://makaan-builders.onrender.com/services/getServices')
     console.log(response.data,"res");
     setdata(response.data)
